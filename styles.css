@@ -1,5 +1,5 @@
-
 @charset "UTF-8";
+
 body {
 	background-color: #FFF;
 	margin: 0px;
@@ -7,20 +7,23 @@ body {
 	font-size: 16px;
 	color: #000;
 }
+
 img {
 	border: none;
 }
+
 a {
-	text-decoration: none;		
+	text-decoration: none;
 }
-a:hover {
-		
-}
+
+a:hover {}
+
 #top_bar {
 	width: 100%;
 	height: 76px;
 	background: url("images/top_bar_bg.gif") repeat-x;
 }
+
 #logo {
 	background: url("images/logo.gif") no-repeat scroll 0 0 transparent;
 	display: block;
@@ -30,8 +33,9 @@ a:hover {
 	position: absolute;
 	top: 13px;
 	width: 143px;
-	
+
 }
+
 #facebook_icon {
 	background: url("images/face_icon.gif") no-repeat scroll 0 0 transparent;
 	display: block;
@@ -41,9 +45,11 @@ a:hover {
 	width: 52px;
 
 }
+
 #facebook_icon:hover {
 	background: url("images/face_icon-hover.gif") no-repeat scroll 0 0 transparent;
 }
+
 #twitter_icon {
 	background: url("images/twitter_icon.gif") no-repeat scroll 0 0 transparent;
 	display: block;
@@ -52,10 +58,12 @@ a:hover {
 	right: 290px;
 	width: 52px;
 }
+
 #twitter_icon:hover {
 	background: url("images/twitter_icon-hover.gif") no-repeat scroll 0 0 transparent;
 }
-#search_icon {
+
+/* #search_icon {
 	background: url("images/search.gif") no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 24px;
@@ -64,17 +72,39 @@ a:hover {
 	top: 21px;
 	width: 25px;
 
-}
+} */
+
 #mail_icon {
 	background: url("images/contact.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	position: absolute;
+	right: 75px;
+	top: 21px;
+	width: 31px;
+
+}
+
+#ingles_icon {
+	background: url("images/en_us.svg") no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 24px;
 	position: absolute;
 	right: 35px;
 	top: 21px;
 	width: 31px;
-
 }
+
+#portugues_icon {
+	background: url("images/pt_br.svg") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	position: absolute;
+	right: 35px;
+	top: 21px;
+	width: 31px;
+}
+
 #menu {
 	display: block;
 	height: 53px;
@@ -84,6 +114,7 @@ a:hover {
 	text-align: center;
 	margin-top: 23px;
 }
+
 #menu a {
 	color: #FFFFFF;
 	display: block;
@@ -92,9 +123,11 @@ a:hover {
 	margin: 5px;
 	width: 66px;
 }
+
 #menu a:hover {
-	background: url("images/white_arrow_menu.gif") no-repeat scroll center bottom transparent;	
+	background: url("images/white_arrow_menu.gif") no-repeat scroll center bottom transparent;
 }
+
 #grid {
 	margin: auto;
 }
@@ -103,28 +136,33 @@ a:hover {
 	background: url("images/border_bottom_shadow.gif") repeat-x scroll 0 0 transparent;
 	height: 30px;
 }
+
 #to_top {
 	background: url("images/send_top_arrow.gif") no-repeat scroll 22px 0 transparent;
 	display: block;
 	height: 24px;
 	margin: auto;
-	width: 60px;	
+	width: 60px;
 }
+
 #to_top:hover {
 	background: url("images/send_top_arrow-hover.gif") no-repeat scroll 22px 0 transparent;
 }
+
 #footer .left {
 	width: 50%;
-	float:left;
+	float: left;
 	text-align: right;
 	height: 150px;
 }
+
 #footer .right {
 	width: 45%;
-	float:left;
+	float: left;
 	text-align: left;
 	margin-left: 20px;
 }
+
 .item {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -138,6 +176,7 @@ a:hover {
 	overflow: hidden;
 	background-color: #872303;
 }
+
 .view {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -156,12 +195,15 @@ a:hover {
 	overflow: visible;
 	cursor: pointer;
 }
+
 .double {
 	width: 602px;
 }
+
 .red_square {
 	background: url("images/red_square.gif") no-repeat scroll center bottom transparent;
 }
+
 .item p {
 	color: white;
 	display: table-cell;
@@ -175,40 +217,40 @@ a:hover {
 
 .item p.extra {
 	text-align: center;
-	font-family:  'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 }
 
-.view .slice{
+.view .slice {
 	width: 60px;
 	height: 100%;
 	z-index: 100;
-	
+
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	
+
 	-webkit-transform-origin: left center;
 	-moz-transform-origin: left center;
 	-o-transform-origin: left center;
 	-ms-transform-origin: left center;
 	transform-origin: left center;
-	
+
 	-webkit-transition: -webkit-transform 150ms ease-in-out;
 	-moz-transition: -moz-transform 150ms ease-in-out;
 	-o-transition: -o-transform 150ms ease-in-out;
 	-ms-transition: -ms-transform 150ms ease-in-out;
 	transition: transform 150ms ease-in-out;
-		
+
 }
 
 .view .dbl {
-	padding-left: 302px;	
+	padding-left: 302px;
 }
 
-.view div.view-back{
+.view div.view-back {
 	width: 50%;
 	height: 100%;
 	position: absolute;
@@ -224,9 +266,10 @@ a:hover {
 	margin: 6px 6px 0px;
 	width: 54px;
 	height: 54px;
-	background-position: left;	
+	background-position: left;
 	overflow: hidden;
 }
+
 .view-back a:hover {
 	background-position: right;
 }
@@ -238,7 +281,7 @@ a:hover {
 	width: 100%;
 	text-align: right;
 	font-size: 16px;
-	color: rgba(255,255,255,0.6);
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .view-back span:first-child {
@@ -248,18 +291,18 @@ a:hover {
 a.more {
 	display: block;
 	font-size: 19px;
-	color: rgba(255,255,255,0.4);
+	color: rgba(255, 255, 255, 0.4);
 	position: absolute;
 	right: 15px;
 	bottom: 15px;
-	border: 2px solid rgba(255,255,255,0.3);
+	border: 2px solid rgba(255, 255, 255, 0.3);
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	line-height: 27px;
 	text-align: center;
 	font-weight: 700;
-	cursor:default;
+	cursor: default;
 }
 
 .view-back a:hover {
@@ -268,36 +311,41 @@ a.more {
 }
 
 .view-back span[data-icon]:before {
-    content: attr(data-icon);
-    font-family: 'icons';
-    color: #aaa;
-	color: rgba(255,255,255,0.2);
-	text-shadow: 0 0 1px rgba(255,255,255,0.2);
+	content: attr(data-icon);
+	font-family: 'icons';
+	color: #aaa;
+	color: rgba(255, 255, 255, 0.2);
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 	padding-right: 5px;
 }
 
-.view .s2, 
-.view .s3, 
-.view .s4, 
+.view .s2,
+.view .s3,
+.view .s4,
 .view .s5 {
-	-webkit-transform: translate3d(60px,0,0);
-	-moz-transform: translate3d(60px,0,0);
-	-o-transform: translate3d(60px,0,0);
-	-ms-transform: translate3d(60px,0,0);
-	transform: translate3d(60px,0,0);
+	-webkit-transform: translate3d(60px, 0, 0);
+	-moz-transform: translate3d(60px, 0, 0);
+	-o-transform: translate3d(60px, 0, 0);
+	-ms-transform: translate3d(60px, 0, 0);
+	transform: translate3d(60px, 0, 0);
 }
+
 .view .s1 {
 	background-position: 0px 0px;
 }
+
 .view .s2 {
 	background-position: -60px 0px;
 }
+
 .view .s3 {
 	background-position: -120px 0px;
 }
+
 .view .s4 {
 	background-position: -180px 0px;
 }
+
 .view .s5 {
 	background-position: -240px 0px;
 }
@@ -305,15 +353,19 @@ a.more {
 .dbl .s1 {
 	background-position: -302px 0px;
 }
+
 .dbl .s2 {
 	background-position: -362px 0px;
 }
+
 .dbl .s3 {
 	background-position: -422px 0px;
 }
+
 .dbl .s4 {
 	background-position: -482px 0px;
 }
+
 .dbl .s5 {
 	background-position: -542px 0px;
 }
@@ -342,9 +394,10 @@ a.more {
 	-moz-transition: left 0.3s ease-in-out;
 	-ms-transition: left 0.3s ease-in-out;
 	transition: left 0.3s ease-in-out;
-	
+
 }
-.boxcaption{
+
+.boxcaption {
 	color: #fff;
 	float: left;
 	position: absolute;
@@ -359,26 +412,27 @@ a.more {
 	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
-.double .boxcaption{
-    top: 0px;
+.double .boxcaption {
+	top: 0px;
 	width: 300px;
 	height: 301px;
-	left:-300px;
+	left: -300px;
 	opacity: .8;
 	/* For IE 5-7 */
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 	/* For IE 8 */
-	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";	
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .boxcaption h3 {
 	margin-left: 22px;
-	font-family: 'Julius Sans One', sans-serif;	
+	font-family: 'Julius Sans One', sans-serif;
 	margin: 16px 15px 5px;
 
 }
+
 .boxcaption h5 {
-	margin-left: 22px;	
+	margin-left: 22px;
 	margin: 10px 15px 0;
 	line-height: 16px;
 }
@@ -386,4 +440,5 @@ a.more {
 .mp3 {
 	display: block;
 	margin-top: 6px;
+	width: 200px;
 }
