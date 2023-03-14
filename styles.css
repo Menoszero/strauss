@@ -37,30 +37,33 @@ a:hover {}
 }
 
 #facebook_icon {
-	background: url("images/face_icon.gif") no-repeat scroll 0 0 transparent;
+	background: url("images/linkdeen.svg") no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 53px;
 	position: absolute;
 	right: 350px;
 	width: 52px;
-
+filter: grayscale(1);
 }
 
 #facebook_icon:hover {
-	background: url("images/face_icon-hover.gif") no-repeat scroll 0 0 transparent;
+	/* background: url("images/face_icon-hover.gif") no-repeat scroll 0 0 transparent; */
+	filter: grayscale(0);
 }
 
 #twitter_icon {
-	background: url("images/twitter_icon.gif") no-repeat scroll 0 0 transparent;
+	background: url("images/instagran.svg") no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 53px;
 	position: absolute;
 	right: 290px;
 	width: 52px;
+	filter: grayscale(1);
 }
 
 #twitter_icon:hover {
-	background: url("images/twitter_icon-hover.gif") no-repeat scroll 0 0 transparent;
+	/* background: url("images/twitter_icon-hover.gif") no-repeat scroll 0 0 transparent; */
+	filter: grayscale(0);
 }
 
 /* #search_icon {
